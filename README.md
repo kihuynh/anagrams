@@ -17,11 +17,18 @@ $ git clone https://github.com/kihuynh/portfolio.git
 
 ## Specs
 
-1. Take a word and split it into an array
-   Input: "hi"
-   Result: ["h", "i"]
-2. Second test
-3. Third test
+1. Will take two words to determine if they're an anagram
+  - Input1: 'tea'
+  - Input2: 'eat'
+  - Result: "It's an anagram"
+2. Words with difference cases will still be determined if it's an anagram
+  - Input1: 'Spear'
+  - Input2: 'sPARE'
+  - Result: "It's an anagram"
+3. Will check if inputted word has a vowel
+  - Input1: 'Despair'
+  - Input2: 'brt'
+  - Result: "You'll need a vowel"
 4. Fourth test
 5. Fifth test
 
