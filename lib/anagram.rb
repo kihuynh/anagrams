@@ -4,6 +4,7 @@ class Anagram
   end
 
   def finder
+    @string.split("")
   end
 
 
