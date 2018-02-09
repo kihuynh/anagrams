@@ -5,7 +5,7 @@ require('anagram')
 describe('anagram') do
   it('check to see if two words are anagrams') do
     word = Word.new('tea')
-    expect(word.finder('eat')).to(eq('anagram'))
+    expect(word.finder('eat')).to(eq("It's an anagram"))
   end
   # it("checks if two words are anagrams") do
   #   first = Word.new("hi")

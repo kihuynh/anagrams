@@ -10,11 +10,11 @@ class Word
 
     # word_1.split('').sort
 
-    # if word_1.split('').sort == word_2.split('').sort
-    #   return 'anagram'
-    # else
-    #   return false
-    # end
+    if word_1.split('').sort == word_2.split('').sort
+      "It's an anagram"
+    else
+      return false
+    end
   end
 #(input).scan(/[aeiou]/i).length
 
