@@ -3,7 +3,8 @@ class Anagram
     @string = string
   end
 
-
+  def finder
+  end
 
 
 
