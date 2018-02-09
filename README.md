@@ -17,7 +17,9 @@ $ git clone https://github.com/kihuynh/portfolio.git
 
 ## Specs
 
-1. First test
+1. Take a word and split it into an array
+   Input: "hi"
+   Result: ["h", "i"]
 2. Second test
 3. Third test
 4. Fourth test
