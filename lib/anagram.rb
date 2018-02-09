@@ -8,9 +8,7 @@ class Word
     word_1 = @word
     word_2 = word_two
 
-    # word_1.split('').sort
-
-    if word_1.split('').sort == word_2.split('').sort
+    if word_1.chars.sort == word_2.chars.sort
       "It's an anagram"
     else
       return false

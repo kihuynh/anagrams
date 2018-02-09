@@ -7,9 +7,8 @@ describe('anagram') do
     word = Word.new('tea')
     expect(word.finder('eat')).to(eq("It's an anagram"))
   end
-  # it("checks if two words are anagrams") do
-  #   first = Word.new("hi")
-  #   second = Word.new("bye")
-  #   expect(first.finder(first, second)).to(eq(["b","y","e"]))
-  # end
+  it('check if two words with DIFFERENCE CASES will still be an anagram') do
+    word = Word.new('Spear')
+    expect(word.finder('sPARE')).to(eq("It's an anagram"))
+  end
 end
