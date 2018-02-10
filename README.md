@@ -13,7 +13,7 @@ Ruby application to check if a word is an anagram or antigram.
 To clone this repository.
 Open terminal
 Run the following command in your terminal to clone on local machine.
-$ git clone https://github.com/kihuynh/portfolio.git
+$ git clone https://github.com/kihuynh/anagrams.git
 
 ## Specs
 

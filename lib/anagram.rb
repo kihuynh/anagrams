@@ -8,17 +8,17 @@ class Word
     word_1 = @word
     word_2 = word_two
 
-    first_word = word_1.downcase.chars.sort
-    second_word = word_2.downcase.chars.sort
+    first_word = word_1.downcase.chars.sort.join("")
+    second_word = word_2.downcase.chars.sort.join("")
 
     if first_word == second_word
       "It's an anagram"
-    elsif first_word.scan(/[aeiou]/i).length == 0 || second_word.scan(/[aeiou]/i).length == 0 
+    elsif first_word == /[aeiou]/ || second_word == /[aeiou]/
       "You'll need a vowel"
     else
       return false
     end
   end
-#(input).scan(/[aeiou]/i).length
+#first_word.scan(/[aeiou]/i).length
 
 end
