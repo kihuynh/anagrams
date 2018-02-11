@@ -15,6 +15,6 @@ describe('anagram') do
 
   it('check if the word has vowels otherwise it will not work') do
     word = Word.new('Dsr')
-    expect(word.finder('brt')).to(eq("You'll need a vowel"))
+    expect(word.finder('bart')).to(eq("You'll need a vowel"))
   end
 end

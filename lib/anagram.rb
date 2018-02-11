@@ -13,12 +13,15 @@ class Word
 
     if first_word == second_word
       "It's an anagram"
-    elsif first_word == /[aeiou]/ || second_word == /[aeiou]/
+    elsif first_word != /[aeiou]/ || second_word != /[aeiou]/
       "You'll need a vowel"
     else
       return false
     end
   end
-#first_word.scan(/[aeiou]/i)
-
+#first_word.scan(/[aeiou]/i) works when .join("")
+#first_word == /[aeiou]/ && second_word == /[aeiou]/
+#first_word =~ /[aeiou]/
+#first_word.include? "a" "e" "i" "o" "u"
+#first_word =~ /[aeiou]/ && second_word =~ /[aeiou]/
 end
