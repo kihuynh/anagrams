@@ -29,8 +29,12 @@ $ git clone https://github.com/kihuynh/anagrams.git
   - Input1: 'Dsr'
   - Input2: 'brt'
   - Result: "You'll need a vowel"
-4. Fourth test
-5. Fifth test
+4. Check if anagram
+  - Input1: 'Yo'
+  - Input2: 'Dog'
+5. It will take into consideration if multiple words are anagrams (space and punctuations shouldn't count. must be removed. use regex)
+  - Input1: A gentleman
+  - Input2: Elegant Man
 
 
 ## Technologies Used
