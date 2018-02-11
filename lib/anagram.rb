@@ -19,6 +19,6 @@ class Word
       return false
     end
   end
-#first_word.scan(/[aeiou]/i).length
+#first_word.scan(/[aeiou]/i)
 
 end
