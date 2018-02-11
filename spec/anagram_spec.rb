@@ -17,4 +17,9 @@ describe('anagram') do
     word = Word.new('Dsr')
     expect(word.finder('bart')).to(eq("You'll need a vowel"))
   end
+
+  it('check if the word are anagrams') do
+    word = Word.new('Yo')
+    expect(word.finder('Dog')).to(eq("This is an anagram"))
+  end
 end
