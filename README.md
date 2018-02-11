@@ -26,7 +26,7 @@ $ git clone https://github.com/kihuynh/anagrams.git
   - Input2: 'sPARE'
   - Result: "It's an anagram"
 3. Will check if inputted word has a vowel
-  - Input1: 'Despair'
+  - Input1: 'Dsr'
   - Input2: 'brt'
   - Result: "You'll need a vowel"
 4. Fourth test
