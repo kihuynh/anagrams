@@ -8,17 +8,19 @@ class Word
     word_1 = @word
     word_2 = word_two
 
-    first_word = word_1.downcase.chars.sort#gsub(/\s+/, "")#.join("")
+    first_word = word_1.downcase.chars.sort#.gsub(/\s+/, "")#.join("")
     second_word = word_2.downcase.chars.sort#.gsub(/\s+/, "")#.join("")
 
     if first_word == second_word
       "It's an anagram"
     elsif (first_word !~ /[aeiou]/) || (second_word !~ /[aeiou]/)
-      "No vowels"
-    # elsif first_word != second_word
-    #   "These are antigrams"
-    #   binding.pry
+      "No vowel"
+    elsif (first_word & second_word) == first_word
+      #first_word.empty?(second_word)
+      true
+      #this section to determine if antigram
     else
+      "ya"
       false
     end
 
