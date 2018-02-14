@@ -13,7 +13,7 @@ class Word
 
     if first_word == second_word
       "It's an anagram"
-    elsif !(first_word =~ /[aeiou]/) ||! (second_word =~ /[aeiou]/)
+    elsif (first_word !~ /[aeiou]/) || (second_word !~ /[aeiou]/)
       "No vowels"
     # elsif first_word != second_word
     #   "These are antigrams"
