@@ -13,8 +13,13 @@ describe('anagram') do
     expect(word.finder('sPARE')).to(eq("It's an anagram"))
   end
 
-  it('check if the word has vowels otherwise it will not work') do
-    word = Word.new('Dsr')
-    expect(word.finder('brt')).to(eq("You'll need a vowel"))
+  it('check if the words has vowels otherwise it will not work') do
+    word = Word.new('Despair')
+    expect(word.finder('brt')).to(eq("No vowels"))
+  end
+
+  it('check if words are antigrams') do
+    word = Word.new('bye')
+    expect(word.finder('felicia')).to(eq("These are antigrams"))
   end
 end
