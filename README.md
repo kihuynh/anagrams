@@ -29,7 +29,9 @@ $ git clone https://github.com/kihuynh/anagrams.git
   - Input1: 'Despair'
   - Input2: 'brt'
   - Result: "You'll need a vowel"
-4. Fourth test
+4. Will check if words are antigrams
+  - Input1: 'bye'
+  - Input2: 'felicia'
 5. Fifth test
 
 
