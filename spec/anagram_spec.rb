@@ -19,7 +19,7 @@ describe('anagram') do
   end
 
   it('check if words are antigrams') do
-    word = Word.new('bye')
-    expect(word.finder('felicia')).to(eq("antigram"))
+    word = Word.new('beep')
+    expect(word.finder('mort')).to(eq("antigram"))
   end
 end
