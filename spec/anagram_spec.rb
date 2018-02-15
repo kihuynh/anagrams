@@ -20,6 +20,6 @@ describe('anagram') do
 
   it('check if words are antigrams') do
     word = Word.new('bye')
-    expect(word.finder('felicia')).to(eq("ya"))
+    expect(word.finder('felicia')).to(eq("antigram"))
   end
 end

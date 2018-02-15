@@ -8,20 +8,25 @@ class Word
     word_1 = @word
     word_2 = word_two
 
-    first_word = word_1.downcase.chars.sort#.gsub(/\s+/, "")#.join("")
-    second_word = word_2.downcase.chars.sort#.gsub(/\s+/, "")#.join("")
+    first_word = word_1.downcase.split('').sort#.gsub(/\s+/, "")#.join("")
+    second_word = word_2.downcase.split('').sort#.gsub(/\s+/, "")#.join("")
+    #.downcase.split("").sort
 
     if first_word == second_word
       "It's an anagram"
+      #is true if both words have the same letters
     elsif (first_word !~ /[aeiou]/) || (second_word !~ /[aeiou]/)
       "No vowel"
-    elsif (first_word & second_word) == first_word
+      #is true if either word has no vowels
+    elsif first_word != second_word
+      #is true if both words have different letters
+      #first_word & second_word == false
       #first_word.empty?(second_word)
-      true
+      #words don't match to each other
+      "antigram"
       #this section to determine if antigram
     else
-      "ya"
-      false
+
     end
 
   end
