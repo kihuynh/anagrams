@@ -1,6 +1,6 @@
 # Anagrams
 
-#### Ruby application for anagrams and antigrams, 1/5/2018
+#### Ruby application for anagrams and antigrams, 2/5/2018
 
 #### By Kim Huynh
 
