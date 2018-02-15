@@ -27,4 +27,9 @@ describe('anagram') do
     word = Word.new('the eyes')
     expect(word.finder('they see')).to(eq("It's an anagram"))
   end
+
+  it('takes into account multiple words being antigrams') do
+    word = Word.new('help you')
+    expect(word.finder('trash')).to(eq("antigram"))
+  end
 end

@@ -30,9 +30,11 @@ $ git clone https://github.com/kihuynh/anagrams.git
   - Input2: 'brt'
   - Result: "You'll need a vowel"
 4. Will check if words are antigrams
-  - Input1: 'bye'
-  - Input2: 'felicia'
-5. Fifth test
+  - Input1: 'beep'
+  - Input2: 'mort'
+5. Takes into account for multiple words being an anagram
+  - Input1: 'the eyes'
+  - Input2: 'they see'
 
 
 ## Technologies Used
